@@ -19,6 +19,18 @@
     html,body{height:100%;margin:0;background:linear-gradient(180deg,#8268ac,#000000);color:var(--hitam)}
 
     .container{max-width:980px;margin:28px auto;padding:20px}
+    
+    header{display:flex;align-items:center;gap:18px;padding:18px;border-radius:18px;background:linear-gradient(90deg,rgba(238, 230, 255, 0.829),rgba(144, 89, 154, 0.708));box-shadow:var(--card-shadow)}
+
+    .avatar{
+      width:100px;height:100px;border-radius:18px;overflow:hidden;flex:0 0 100px;background:linear-gradient(135deg,var(--pink),var(--ungu));display:grid;place-items:center;border:4px solid rgba(255,255,255,0.6);
+    }
+    .avatar img{width:100%;height:100%;object-fit:cover;display:block}
+    .profile-info h1{margin:0;font-size:1.25rem;color:#371b5e}
+    .profile-info p{margin:6px 0 0;color:#371b5e}
+    .badges{margin-top:8px;display:flex;gap:8px;color:#371b5e}
+    .badge{background:#e6e6e9;padding:6px 10px;border-radius:999px;font-size:12px}
+
 
     /* Navbar */
     .navbar {
@@ -74,6 +86,25 @@
       <li><a href="blog.html">Tugas Blog</a></li>
     </ul>
   </nav>
+
+    <div class="container">
+    <header>
+      <div class="avatar" id="avatar">
+        <div class="avatar" id="avatar">
+        <img src="foto1.jpg" alt="Foto Profil" class="profile-img">
+      </div>
+    </div>
+      <div class="profile-info">
+          <h1>KAISHA KAMILA PUSPITO</h1>
+          <p>Teknik Informatika UBP Karawang</p>
+          <div class="badges">
+            <span class="badge">NIM : 24416255201028</span>
+            <span class="badge">if24.kaishapuspito@mhs.ubpkarawang.ac.id</span>
+            <span class="badge">Basis Data</span>
+          </div>
+      </div>
+    </header>
+
 
   <!-- Hero Video -->
   <div class="hero">
